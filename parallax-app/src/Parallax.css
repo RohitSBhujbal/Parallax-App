@@ -1,0 +1,32 @@
+/* Parallax.css */
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.parallax-container {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.parallax-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: url('https://cdn.dribbble.com/users/1941694/screenshots/15670778/media/c1311faa228875e5fa97c15fef81d6cc.gif') no-repeat center center/cover;
+    transform: translateZ(0);
+    z-index: -1;
+}
+
+.content {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    padding: 100px 0;
+    color: white;
+}
